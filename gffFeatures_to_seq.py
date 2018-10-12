@@ -1,4 +1,4 @@
-# Extract gene/mRNA/up/down stream extract from a gff file
+# Extract gene/mRNA/flanking extract from a gff file
 # usage: python gffFeatures_to_seq.py <genome.gff> <gff file> <feature> <outputfile>
 # Example: python gffFeatures_to_seq.py genome.fa annot.gff gene geneseq.fasta
 import sys
