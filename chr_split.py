@@ -1,4 +1,4 @@
-# Split per chromosome/scaffolds/contigs 
+# Split per chromosome/scaffolds/contigs into separate fasta
 # python chr_split.py <genome.fasta> 
 
 import sys
