@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-samtools='/opt/Bio/samtools/1.9/bin/samtools'
+## Need to give exact path
+samtools='/source/samtools/1.9/bin/samtools'
 
 ref=$1
 shift
