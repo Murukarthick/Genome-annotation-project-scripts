@@ -1,1 +1,1 @@
-# Genome-annotatoin-project-scripts
+# Genome-annotation-project-scripts
