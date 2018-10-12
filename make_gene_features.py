@@ -26,10 +26,11 @@ while x<= (l-1) :
  ml=m1.split('\t')
  ml1=ml[2]
 
- u1000=int(ml[3])-int(up)
+ # tracks for intron
  intrn=int(ml[4])+1
  d200=int(ml[4])+int(down)
- 
+
+# tracks for flakings 
  ml3=int(ml[3]) 
  ml4=ml3+300
  chr=ml[1]
@@ -37,7 +38,9 @@ while x<= (l-1) :
  my=m2.split('\t')
  my1=my[2]
  e=int(my[3])-1
+ u1000=int(my[3])-int(up)
  s=int(ml[4])+1
+
 # Block of conditions carry out the requested process 
  if ml1 == 'gene' :
   file2.write(m1)
