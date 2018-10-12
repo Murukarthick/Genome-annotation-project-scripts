@@ -1,12 +1,9 @@
 ## Depth analysis
-samtools='/opt/Bio/samtools/1.9/bin/samtools'
+samtools='/source/samtools/1.9/bin/samtools'
 
-# Selecte few/target samples for visualization 
-awk 'NR <= 10' 180809_BRIDGE_300_samples.txt > selected_samples.txt
-
-## IGV visualiazation of 10 samples (can't visualize over 512 Mb)
+## IGV visualiazation of samples (can't visualize over 512 Mb larger chromosomes at present (2018))
 # Reference sequence (make it parts for large gennome)
-ref='/bit-13/ssd/jayakodi/data/Hv_parts_pseudomolecule_v3.fasta'
+ref='pseudomolecule_v3.fasta'
 
 #Extract specfic chromosome for visualization
-cat selected_samples.txt | parallel --will-cite -P 2 ./igv_view.zsh $ref '{}'
+cat samples.txt | parallel --will-cite -P 2 ./igv_view.zsh $ref '{}'
