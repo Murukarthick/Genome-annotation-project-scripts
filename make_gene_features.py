@@ -41,7 +41,7 @@ while x<= (l-1) :
  u1000=int(my[3])-int(up)
  s=int(ml[4])+1
 
-# Block of conditions carry out the requested process 
+# Conditions carry out the requested process 
  if ml1 == 'gene' :
   file2.write(m1)
   file2.write("\n")
