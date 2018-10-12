@@ -2,7 +2,6 @@
 # python seqSize_finder.py <genome.fasta> > result-size.txt
 import sys
 
-print "# writing your file ...#"
 # Read and split input fasta file
 file=open(sys.argv[1],'r')
 fh=file.read()
