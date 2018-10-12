@@ -1,5 +1,5 @@
 # Extract specific chromosomes/scaffolds/contigs
-# python seqSize_finder.py <genome.fasta> <selected_ids.txt> <ouput_Selected_seq.fasta>
+# Usage: python specific_seq_extract.py <genome.fasta> <selected_ids.txt> <ouput_Selected_seq.fasta>
 import sys
 
 # Read and split input fasta file
