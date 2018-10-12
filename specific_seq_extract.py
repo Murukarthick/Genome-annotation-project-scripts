@@ -1,4 +1,4 @@
-# Extract specific chromosomes/scaffolds/contigs
+# Extract specific chromosomes/scaffolds/contigs from a fasta file
 # Usage: python specific_seq_extract.py <genome.fasta> <selected_ids.txt> <ouput_Selected_seq.fasta>
 import sys
 
